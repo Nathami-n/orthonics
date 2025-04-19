@@ -1,0 +1,14 @@
+<rss version="2.0">
+  <channel>
+    <title>Your Blog</title>
+    <description>Just another WordPress blog</description>
+    <link>https://yourdomain.com</link>
+    <item>
+      <title>Hello world!</title>
+      <link>https://yourdomain.com/hello-world</link>
+      <pubDate>Mon, 20 Apr 2025 12:00:00 GMT</pubDate>
+      <guid>https://yourdomain.com/?p=1</guid>
+      <description>This is your first post.</description>
+    </item>
+  </channel>
+</rss>

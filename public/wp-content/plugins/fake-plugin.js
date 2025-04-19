@@ -1,0 +1,1 @@
+console.log("Fake WordPress plugin loaded");
