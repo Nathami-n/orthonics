@@ -199,7 +199,7 @@ export default function AppointmentsPage() {
   }
 
   return (
-    <div className="h-screen md:py-24 flex items-center justify-center lg:py-32">
+    <div className="container mx-auto py-12 md:py-24 flex items-center justify-center lg:py-32">
       <div className="max-w-md mx-auto space-y-6">
         <div className="space-y-2 text-center">
           <h1 className="text-3xl font-bold">Book Your Appointment</h1>

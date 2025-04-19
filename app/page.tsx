@@ -23,7 +23,7 @@ export default function Home() {
                 Improving patient-clinician interaction and device education for better outcomes.
               </p>
             </div>
-            <div className="space-x-4">
+            <div className="space-x-4 max-sm:flex max-sm:flex-col max-sm:space-y-1">
               <Link href="/appointments">
                 <Button className="bg-blue-600 hover:bg-blue-700">Book Appointment</Button>
               </Link>
