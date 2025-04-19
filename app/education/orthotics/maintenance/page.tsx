@@ -8,7 +8,7 @@ import { Separator } from "@/components/ui/separator"
 
 export default function OrthoticsMaintenancePage() {
   return (
-    <div className="container py-12 md:py-24 lg:py-32">
+    <div className="container max-sm:px-4  py-12 md:py-24 lg:py-32">
       <div className="max-w-3xl mx-auto space-y-8">
         <div className="flex items-center">
           <Link href="/education">
@@ -26,7 +26,7 @@ export default function OrthoticsMaintenancePage() {
 
         <div className="aspect-video relative overflow-hidden rounded-lg">
           <Image
-            src="/images/orthotic-maintenance.png"
+            src="/orth-2.webp"
             alt="Orthotic maintenance"
             width={800}
             height={400}

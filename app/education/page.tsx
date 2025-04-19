@@ -8,7 +8,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 
 export default function EducationPage() {
   return (
-    <div className="container py-12 md:py-24 lg:py-32">
+    <div className="h-screen  p-4">
       <div className="space-y-6">
         <div className="space-y-2 text-center">
           <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Device Education</h1>
@@ -32,7 +32,7 @@ export default function EducationPage() {
                 <CardContent>
                   <div className="aspect-video relative mb-4 overflow-hidden rounded-lg">
                     <Image
-                      src="/images/prosthetic-leg.png"
+                      src="started.avif"
                       alt="Prosthetic device"
                       width={400}
                       height={200}
@@ -60,7 +60,7 @@ export default function EducationPage() {
                 <CardContent>
                   <div className="aspect-video relative mb-4 overflow-hidden rounded-lg">
                     <Image
-                      src="/images/prosthetic-maintenance.png"
+                      src="prosthetic.avif"
                       alt="Prosthetic maintenance"
                       width={400}
                       height={200}
@@ -88,7 +88,7 @@ export default function EducationPage() {
                 <CardContent>
                   <div className="aspect-video relative mb-4 overflow-hidden rounded-lg">
                     <Image
-                      src="/images/skin-care.png"
+                      src="skin.avif"
                       alt="Skin care"
                       width={400}
                       height={200}
@@ -151,7 +151,7 @@ export default function EducationPage() {
                 <CardContent>
                   <div className="aspect-video relative mb-4 overflow-hidden rounded-lg">
                     <Image
-                      src="/images/orthotic-brace.png"
+                      src="orth-1.jpg"
                       alt="Orthotic device"
                       width={400}
                       height={200}
@@ -179,7 +179,7 @@ export default function EducationPage() {
                 <CardContent>
                   <div className="aspect-video relative mb-4 overflow-hidden rounded-lg">
                     <Image
-                      src="/images/orthotic-maintenance.png"
+                      src="orth-2.webp"
                       alt="Orthotic maintenance"
                       width={400}
                       height={200}
@@ -207,7 +207,7 @@ export default function EducationPage() {
                 <CardContent>
                   <div className="aspect-video relative mb-4 overflow-hidden rounded-lg">
                     <Image
-                      src="/images/skin-care.png"
+                      src="/orth-3.jpeg"
                       alt="Skin care"
                       width={400}
                       height={200}
