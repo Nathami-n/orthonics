@@ -10,7 +10,7 @@ import { AlertTriangle } from "lucide-react"
 
 export default function SkinCarePage() {
   return (
-    <div className="container max-sm:px-4 py-12 md:py-24 lg:py-32">
+    <div className="container max-sm:px-4 mx-auto py-12 md:py-24 lg:py-32">
       <div className="max-w-3xl mx-auto space-y-8">
         <div className="flex items-center">
           <Link href="/education">
