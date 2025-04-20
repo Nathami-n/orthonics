@@ -13,7 +13,8 @@ export default function Home() {
       <meta name="generator" content="WordPress 6.4.2" />
       <link rel="EditURI" type="application/rsd+xml" title="RSD" href="/xmlrpc.php?rsd" />
       <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="/wp-includes/wlwmanifest.xml" />
-    </Head><div className="flex flex-col min-h-screen">
+    </Head>
+    <div className="container p-4 mx-auto">
         {/* Hero Section */}
         <section className="w-full py-12 md:py-24 lg:py-32 bg-blue-50 relative overflow-hidden">
           <div className="absolute inset-0 z-0 opacity-10">
