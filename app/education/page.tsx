@@ -17,9 +17,9 @@ export default function EducationPage() {
           </p>
         </div>
 
-        <Tabs defaultValue="prosthetics" className="w-full">
-          <TabsList className="grid w-full grid-cols-2">
-            <TabsTrigger value="prosthetics">Prosthetics</TabsTrigger>
+        <Tabs defaultValue="prosthetics" className="max-w-[89%] mx-auto">
+          <TabsList className="w-full gap-x-8 bg-white">
+            <TabsTrigger value="prosthetics" className="data-[state:active]:text-primary">Prosthetics</TabsTrigger>
             <TabsTrigger value="orthotics">Orthotics</TabsTrigger>
           </TabsList>
           <TabsContent value="prosthetics" className="space-y-6">
